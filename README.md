@@ -199,4 +199,7 @@ journalctl -u ollama -f
 - https://ollama.com/library
 - https://continue.dev
 - https://docs.continue.dev
+- https://www.youtube.com/watch?v=AKKx1PoNtnM
+- https://www.youtube.com/watch?v=13ab5dyOasI
+- https://www.youtube.com/watch?v=2qFcbRK1qDE
 
