@@ -3,7 +3,7 @@
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-26-E95420?logo=ubuntu)
 ![Ollama](https://img.shields.io/badge/Ollama-Local%20LLM-black)
 ![VSCode](https://img.shields.io/badge/VS_Code-Continue-blue?logo=visualstudiocode)
-![License](https://img.shields.io/badge/License-MIT-green)
+
 
 > Build a **100% local, private, and free AI coding environment** using Ollama, VS Code and Continue.dev.
 
