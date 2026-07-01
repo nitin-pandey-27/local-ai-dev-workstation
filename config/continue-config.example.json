@@ -1,1 +1,41 @@
-{"models":{}}
+# This is an example configuration file
+# To learn more, see the full config.yaml reference: https://docs.continue.dev/reference
+
+name: Main Config
+version: 1.0.0
+schema: v1
+
+# Define which models can be used
+# https://docs.continue.dev/customization/models
+models:
+  - name: qwen2.5 3b
+    provider: ollama
+    model: qwen2.5:3b
+    apiBase: http://localhost:11434
+    roles:
+      - chat
+      - edit
+  #- name: Qwen Autocomplete
+  #  provider: ollama
+  #  model: qwen2.5-coder:1.5b
+  #  apiBase: http://localhost:11434
+  #  roles:
+  #    - autocomplete
+  - name: Deepseek Autocomplete
+    provider: ollama
+    model: deepseek-coder:1.3b
+    apiBase: http://localhost:11434
+    roles:
+      - autocomplete
+  - name: Nomic Embed
+    provider: ollama
+    model: nomic-embed-text
+    apiBase: http://localhost:11434
+    roles:
+      - embed
+    defaultCompletionOptions:
+      contextLength: 100000
+      maxTokens: 64000
+    capabilities:
+      - tool_use
+      - image_input
